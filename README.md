@@ -35,16 +35,16 @@ Por último, agradecemos a [Suma Ciudadana](http://www.sumaciudadana.org/), ONG 
 
 	'rake assets:precompile'
  
-## Crear csv para exportar de los 3 poders
+## Crear csv para exportar de los 3 poderes
 
   `GET tareas/crear_csv_poderes`
 
 
 ## Actualizar los DNI
 
-Recibe un CSV separedo por ",". El mismo debe estar en `public/dni_personas.csv`, hay que subirlo por ftp.
+Recibe un CSV separado por ",". El mismo debe estar en `public/dni_personas.csv`, hay que subirlo por ftp.
 
-Elcon orden de las cabeceras es el siguiente:
+El orden de las cabeceras es el siguiente:
 
 `["apellido", "nombre", "CUIL", "DNI", "CUIT"]`
 
